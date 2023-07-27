@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "randombs",
+	"version": "${version}",
+	"name": "Gabe's Random Bullshit",
+	"description": "A bunch of random bullshit that Gabe has tossed together because he is learning how to mod.",
+	"authors": [
+		"Gabriel Sykes"
+	],
+	"contact": {
+		"homepage": "https://gabriel-sykes.com/",
+		"sources": "https://github.com/sykesgabri/randombs"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/randombs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.gabrielsykes.randombs.RandomBS"
+		],
+		"client": [
+			"com.gabrielsykes.randombs.RandomBSClient"
+		],
+		"fabric-datagen": [
+			"com.gabrielsykes.randombs.RandomBSDataGenerator"
+		]
+	},
+	"mixins": [
+		"randombs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

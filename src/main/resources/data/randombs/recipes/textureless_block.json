@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "BM",
+    "MB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "M": {
+      "item": "minecraft:magenta_concrete"
+    }
+  },
+  "result": {
+    "item": "randombs:textureless_block",
+    "count": 4
+  }
+}

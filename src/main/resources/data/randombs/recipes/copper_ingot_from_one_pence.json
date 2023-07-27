@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "randombs:one_pence"
+    }
+  },
+  "result": {
+    "item": "minecraft:copper_ingot"
+  }
+}

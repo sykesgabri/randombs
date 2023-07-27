@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:red_concrete"
+    },
+    {
+      "item": "minecraft:orange_concrete"
+    },
+    {
+      "item": "minecraft:yellow_concrete"
+    },
+    {
+      "item": "minecraft:green_concrete"
+    },
+    {
+      "item": "minecraft:blue_concrete"
+    },
+    {
+      "item": "minecraft:purple_concrete"
+    }
+  ],
+  "result": {
+    "item": "randombs:gay_block",
+    "count": 6
+  }
+}
